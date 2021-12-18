@@ -1,0 +1,82 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	color: #383737;
+	font-family: 'Rubik', sans-serif;
+}
+
+.wrap {
+	display: flex;
+	width: 60%;
+	justify-content: space-between;
+}
+
+.head {
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+}
+
+.table {
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+}
+
+.item {
+	border: 1px solid silver;
+	width: 60%;
+	height: 500px;
+}
+
+.number {
+	font-weight: lighter;
+	font-size: 22px;
+	margin: 0;
+	padding: 20px 0 0 20px;
+}
+
+.item-name {
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+
+.item:hover {
+	color: #fff;
+}
+
+.itemA:hover {
+	background: linear-gradient(rgba(1,1,1,.7),rgba(1,1,1,.7)), url(9.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.itemB:hover {
+	background: linear-gradient(rgba(1,1,1,.7),rgba(1,1,1,.7)), url(10.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.itemC:hover {
+	background: linear-gradient(rgba(1,1,1,.7),rgba(1,1,1,.7)), url(11.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.itemD:hover {
+	background: linear-gradient(rgba(1,1,1,.7),rgba(1,1,1,.7)), url(12.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
